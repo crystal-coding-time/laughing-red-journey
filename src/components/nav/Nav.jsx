@@ -5,15 +5,17 @@ import {BsFillPersonFill} from 'react-icons/bs'
 import {RiServiceFill} from 'react-icons/ri'
 import{MdDesignServices} from 'react-icons/md'
 import {RiChatSmile2Fill} from 'react-icons/ri'
+import { useState } from 'react'
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href='#'><AiTwotoneHome /></a>
-      <a href='#about'><BsFillPersonFill /></a>
-      <a href='#experience'><RiServiceFill /></a>
-      <a href='#services'><MdDesignServices /></a>
-      <a href='#contact'><RiChatSmile2Fill /></a>
+      <a href='#' className={activeNav === '#' ? 'active' : ''}><AiTwotoneHome /></a>
+      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BsFillPersonFill /></a>
+      <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><RiServiceFill /></a>
+      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><MdDesignServices /></a>
+      <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><RiChatSmile2Fill /></a>
     </nav>
   )
 }
