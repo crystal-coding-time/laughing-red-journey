@@ -1,6 +1,7 @@
 import React from 'react'
 import CV from '../../assets/CV.pdf'
 
+// Define a functional component CTA (Call-to-Action)
 const CTA = () => {
   return (
     <div className="cta">
