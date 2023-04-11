@@ -1,10 +1,10 @@
-.portfolio_container {
+.portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
 
-.portfolio__items {
+.portfolio__item {
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
@@ -12,7 +12,7 @@
     transition: var(--transition);
 }
 
-.portfolio__items:hover {
+.portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
 }
