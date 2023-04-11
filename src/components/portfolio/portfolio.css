@@ -35,7 +35,7 @@
 /* Media Queries For Small Devices */
 
 @media screen and (max-width: 600px) {
-   .portfolio_container {
+   .portfolio__container {
        grid-template-columns: repeat(1fr);
        gap: 1rem;
    }
@@ -45,7 +45,7 @@
 /* Media Queries For Medium Devices */
 
 @media screen and (max-width: 1024px) {
-    .portfolio_container {
+    .portfolio__container {
         grid-template-columns: repeat(1fr, 1fr);
         gap: 1.2rem;
     }
