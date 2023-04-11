@@ -23,5 +23,30 @@
 }
 
 .portfolio__item h3 {
-    margin: 1.2 0;
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta {
+    display:flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Media Queries For Small Devices */
+
+@media screen and (max-width: 600px) {
+   .portfolio_container {
+       grid-template-columns: repeat(1fr);
+       gap: 1rem;
+   }
+
+}
+
+/* Media Queries For Medium Devices */
+
+@media screen and (max-width: 1024px) {
+    .portfolio_container {
+        grid-template-columns: repeat(1fr, 1fr);
+        gap: 1.2rem;
+    }
 }

@@ -16,48 +16,60 @@ const Portfolio = () => {
             <img src={IMG1} alt="Image of quizz project" />
           </div>
           <h3>JavaScript Quizz</h3>
-          <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
+            <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG2} alt="Image of Random Password Generator" />
           </div>
           <h3>Random Password Generator</h3>
-          <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
+            <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG3} alt="A simple educational search tool" />
           </div>
           <h3>The Curious Amateur</h3>
-          <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
+            <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
+            <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="Image of quizz project" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
+            <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="Image of quizz project" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/crystal-coding-time" className='btn' target='_blank'>Github</a>
+            <a href="https://github.com/crystal-coding-time" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
       </div>
     </section>
