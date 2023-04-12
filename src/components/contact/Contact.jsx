@@ -12,16 +12,45 @@ const Contact = () => {
   // Function to send an email
   const sendEmail = (e) => {
     e.preventDefault();  // Preventing the default form submission
-
-    // Using EmailJS to send the form data as an email - this prevents the user from inputting a invalid email address
+  
+    if (!form.current.checkValidity()) {
+      alert('Please fill in all required fields');
+      return;
+    }
+  
+    // Using EmailJS to send the form data as an email - this prevents the user from inputting an invalid email address
     emailjs.sendForm('service_j0md2q7', 'template_wmqxrpj', form.current, '8m2StiBjqeQZ0EZ4Z')
       .then((result) => {
           console.log(result.text);  // Logging the result of the email sending process
       }, (error) => {
           console.log(error.text);  // Logging the error, if any
       });
+  
+    // Resetting the form
+    e.target.reset();
+  
   };
 
+  // Function to validate the form fields
+  const validateField = (e) => {
+    if (e.target.value === '') {
+      e.target.setCustomValidity('This field is required');
+    } else {
+      e.target.setCustomValidity('');
+    }
+  }
+
+  // Function to validate the email field
+  const validateEmail = (e) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(e.target.value)) {
+      e.target.setCustomValidity('Please enter a valid email address');
+    } else {
+      e.target.setCustomValidity('');
+    }
+  }
+  
+  
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -53,9 +82,9 @@ const Contact = () => {
 
         {/* Contact form section */}
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required/>
-          <input type="email" name='email' placeholder='Your Email' required/>
-          <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
+          <input type="text" name='name' placeholder='Your Full Name' onBlur={validateField} required/>
+          <input type="email" name='email' placeholder='Your Email' onBlur={validateField} required/>
+          <textarea name="message" rows="7" placeholder='Your Message' onBlur={validateField} required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
         {/* End of contact form section */}
