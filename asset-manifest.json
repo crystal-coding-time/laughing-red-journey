@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/laughing-red-journey/static/css/main.e799e18d.css",
-    "main.js": "/laughing-red-journey/static/js/main.14e726be.js",
+    "main.js": "/laughing-red-journey/static/js/main.64fb2277.js",
     "static/media/selfie02.jpg": "/laughing-red-journey/static/media/selfie02.67a87cc9cd222ead265f.jpg",
     "static/media/avatar02.JPG": "/laughing-red-journey/static/media/avatar02.a79797ce610ffb4dfe89.JPG",
     "static/media/avatar01.JPG": "/laughing-red-journey/static/media/avatar01.ce10c2a73f736d3eb9f3.JPG",
@@ -13,10 +13,10 @@
     "static/media/CV.pdf": "/laughing-red-journey/static/media/CV.b90273e0886bec8bd588.pdf",
     "index.html": "/laughing-red-journey/index.html",
     "main.e799e18d.css.map": "/laughing-red-journey/static/css/main.e799e18d.css.map",
-    "main.14e726be.js.map": "/laughing-red-journey/static/js/main.14e726be.js.map"
+    "main.64fb2277.js.map": "/laughing-red-journey/static/js/main.64fb2277.js.map"
   },
   "entrypoints": [
     "static/css/main.e799e18d.css",
-    "static/js/main.14e726be.js"
+    "static/js/main.64fb2277.js"
   ]
 }
