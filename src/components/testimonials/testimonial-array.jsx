@@ -18,7 +18,7 @@ const testimonials = [
     {
         id: 2,
         avatar: avatar02,
-        name: 'Scott',
+        name: 'Drew',
         review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, quas.'
     },
 ];
