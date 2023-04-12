@@ -1,8 +1,13 @@
 import React from 'react'
 import './testimonials.css'
-import avatar00 from '../../assets/images/avatar00.JPG'
-import avatar01 from '../../assets/images/avatar01.JPG'
-import avatar02 from '../../assets/images/avatar02.JPG'
+import testimonials from './testimonial-array';
+// import Swiper core and required modules
+import { Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 
 const Testimonials = () => {
   return (
@@ -10,15 +15,21 @@ const Testimonials = () => {
       <h5>Past Client</h5>
       <h2>Testimonials</h2>
 
-      <div className="container testimonials__container">
-        <article className='testimonial'>
-          <div className="client__avatar">
-            <img src={avatar00} alt="client headshot" />
-            <h5 className='client__name'>Scott</h5>
-            <small className="client__review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, quas.</small>
-          </div>
-        </article>
-      </div>
+      <Swiper className="container testimonials__container">
+        {
+          testimonials.map(({id, avatar, name, review}) => {
+            return(
+            <SwiperSlide key={id} className='testimonial'>
+              <div className="client__avatar">
+                <img src={avatar} alt="client headshot" />
+              </div>
+            <h5 className='client__name'>{name}</h5>
+            <small className="client__review">{review}</small>
+            </SwiperSlide>
+            )
+          })
+        }
+      </Swiper>
     </section>
   )
 }
