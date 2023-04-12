@@ -83,9 +83,9 @@ const Contact = () => {
         {/* Contact form section */}
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' onBlur={validateField} required/>
-          <input type="email" name='email' placeholder='Your Email' onBlur={validateField} required/>
+          <input type="email" name='email' placeholder='Your Email' onBlur={validateEmail} required/>
           <textarea name="message" rows="7" placeholder='Your Message' onBlur={validateField} required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <button type='submit' className='btn btn-primary' >Send Message</button>
         </form>
         {/* End of contact form section */}
       </div>
