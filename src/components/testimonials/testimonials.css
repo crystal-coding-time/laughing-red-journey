@@ -24,7 +24,7 @@
     color: var(--color-light);
     font-weight: 300;
     display: block;
-    width: 80%;
+    /* width: 80%; Commented out due to responsive issues */
     margin: 0.8 auto 0;
 }
 
