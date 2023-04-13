@@ -62,8 +62,8 @@ const Contact = () => {
           <article className="contact__option">
             <TfiEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>test@test.com</h5>
-            <a href="mailto:test@test.com">Send An Email</a>
+            <h5>eli.drew.terkeurst@gmail.com</h5>
+            <a href="mailto:eli.drew.terkeurst@gmail.com">Send An Email</a>
           </article>
           <article className="contact__option">
             <AiFillMessage className='contact__option-icon'/>

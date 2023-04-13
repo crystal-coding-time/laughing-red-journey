@@ -18,19 +18,19 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Creating wireframes and mockups for websites or mobile apps</p>
             </li>
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Conducting user research and usability testing to inform design decisions</p>
             </li>
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Collaborating with developers to ensure that designs are feasible and optimized for performance</p>
             </li>
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Creating wireframes and mockups for websites or mobile apps</p>
             </li>
           </ul>
         </article>
@@ -43,19 +43,19 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Building websites and web applications using HTML, CSS, and JavaScript</p>
             </li>
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Developing front-end features such as forms, modals, and carousels using libraries such as React or Vue</p>
             </li>
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Integrating third-party APIs, such as payment gateways or social media platforms, into a website or web application</p>
             </li>
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Debugging and troubleshooting issues that arise during development</p>
             </li>
           </ul>
         </article>
@@ -68,19 +68,19 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Writing blog posts, articles, or other types of content that engage and inform audiences</p>
             </li>
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Creating social media posts that drive engagement and promote a brand's message</p>
             </li>
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Analyzing and reporting on the performance of content using tools such as Google Analytics</p>
             </li>
             <li>
               <FaCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Conducting keyword research and optimizing content for search engine optimization (SEO)</p>
             </li>
           </ul>
         </article>
