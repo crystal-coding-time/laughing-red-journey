@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/laughing-red-journey/static/css/main.87e2eb4b.css",
-    "main.js": "/laughing-red-journey/static/js/main.73fe49b6.js",
+    "main.js": "/laughing-red-journey/static/js/main.83096a23.js",
     "static/media/selfie02.jpg": "/laughing-red-journey/static/media/selfie02.67a87cc9cd222ead265f.jpg",
     "static/media/avatar02.JPG": "/laughing-red-journey/static/media/avatar02.a79797ce610ffb4dfe89.JPG",
     "static/media/avatar01.JPG": "/laughing-red-journey/static/media/avatar01.ce10c2a73f736d3eb9f3.JPG",
     "static/media/avatar00.JPG": "/laughing-red-journey/static/media/avatar00.59e32e77270e9e379458.JPG",
     "static/media/selfie01.png": "/laughing-red-journey/static/media/selfie01.e5ddfadc41e0f02471ad.png",
     "static/media/amature.jpeg": "/laughing-red-journey/static/media/amature.010bdbca1c28f1d7e248.jpeg",
+    "static/media/weather.jpeg": "/laughing-red-journey/static/media/weather.f3889f8fbd14af023cd1.jpeg",
     "static/media/quizz.jpeg": "/laughing-red-journey/static/media/quizz.25d6e6f5558ceac663ba.jpeg",
     "static/media/password.jpeg": "/laughing-red-journey/static/media/password.8c25d0e5d028e0ffadb7.jpeg",
     "static/media/CV.pdf": "/laughing-red-journey/static/media/CV.b90273e0886bec8bd588.pdf",
+    "static/media/scheduler.png": "/laughing-red-journey/static/media/scheduler.376099dbb39c26966794.png",
+    "static/media/PWA-word.jpeg": "/laughing-red-journey/static/media/PWA-word.48a8405de0894b837b77.jpeg",
     "index.html": "/laughing-red-journey/index.html",
     "main.87e2eb4b.css.map": "/laughing-red-journey/static/css/main.87e2eb4b.css.map",
-    "main.73fe49b6.js.map": "/laughing-red-journey/static/js/main.73fe49b6.js.map"
+    "main.83096a23.js.map": "/laughing-red-journey/static/js/main.83096a23.js.map"
   },
   "entrypoints": [
     "static/css/main.87e2eb4b.css",
-    "static/js/main.73fe49b6.js"
+    "static/js/main.83096a23.js"
   ]
 }
