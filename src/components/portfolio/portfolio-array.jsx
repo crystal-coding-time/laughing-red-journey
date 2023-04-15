@@ -2,7 +2,7 @@ import IMG1 from '../../assets/images/quizz.jpeg'
 import IMG2 from '../../assets/images/password.jpeg'
 import IMG3 from '../../assets/images/amature.jpeg'
 import IMG4 from '../../assets/images/PWA-word.jpeg'
-import IMG5 from '../../assets/images/scheduler.png'
+import IMG5 from '../../assets/images/scheduler.jpeg'
 import IMG6 from '../../assets/images/weather.jpeg'
 
 const data = [
