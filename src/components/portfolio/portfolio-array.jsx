@@ -1,9 +1,9 @@
 import IMG1 from '../../assets/images/quizz.jpeg'
 import IMG2 from '../../assets/images/password.jpeg'
 import IMG3 from '../../assets/images/amature.jpeg'
-import IMG4 from '../../assets/images/amature.jpeg'
-import IMG5 from '../../assets/images/amature.jpeg'
-import IMG6 from '../../assets/images/amature.jpeg'
+import IMG4 from '../../assets/images/PWA-word.jpeg'
+import IMG5 from '../../assets/images/scheduler.png'
+import IMG6 from '../../assets/images/weather.jpeg'
 
 const data = [
     {
@@ -30,23 +30,23 @@ const data = [
     {
         id: 4, 
         image: IMG4,
-        title: "Bilbo Baggins",
-        github: "https://github.com/crystal-coding-time",
-        demo: "https://github.com/crystal-coding-time",
+        title: "(PWA) Text Editor",
+        github: "https://github.com/crystal-coding-time/ideal-pop-tart",
+        demo: "https://afternoon-ridge-66760.herokuapp.com/",
     },
     {
         id: 5,
         image: IMG5,
-        title: "Galadriel",
-        github: "https://github.com/crystal-coding-time",
-        demo: "https://github.com/crystal-coding-time",
+        title: "Work Day Scheduler",
+        github: "https://github.com/crystal-coding-time/personal-work-day-scheduler",
+        demo: "https://crystal-coding-time.github.io/personal-work-day-scheduler/",
     },
     {
         id: 6,
         image: IMG6,
-        title: "Gandalf",
-        github: "https://github.com/crystal-coding-time",
-        demo: "https://github.com/crystal-coding-time",
+        title: "Weather Wizard",
+        github: "https://github.com/crystal-coding-time/weather-wizard",
+        demo: "https://crystal-coding-time.github.io/weather-wizard/",
     },
 ]
 
