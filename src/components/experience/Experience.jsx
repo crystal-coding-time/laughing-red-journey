@@ -31,7 +31,7 @@ const Experience = () => {
               <BsCheck2All className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Advanced</small>
               </div>
             </article>
             <article className='experience__details'>
@@ -52,7 +52,7 @@ const Experience = () => {
               <BsCheck2All className='experience__details-icon' />
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Advanced</small>
               </div>
             </article>
           </div>
@@ -72,7 +72,7 @@ const Experience = () => {
               <BsCheck2All className='experience__details-icon' />
               <div>
                 <h4>MongoDB</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Advanced</small>
               </div>
             </article>
             <article className='experience__details'>
